@@ -4685,11 +4685,7 @@ void intel_irq_init(struct drm_i915_private *dev_priv)
 	INIT_WORK(&dev_priv->l3_parity.error_work, ivybridge_parity_work);
 
 	/* Let's track the enabled rps events */
-	if (IS_VALLEYVIEW(dev_priv))
-		/* WaGsvRC0ResidencyMethod:vlv */
-		dev_priv->pm_rps_events = GEN6_PM_RP_DOWN_EI_EXPIRED | GEN6_PM_RP_UP_EI_EXPIRED;
-	else
-		dev_priv->pm_rps_events = GEN6_PM_RPS_EVENTS;
+	dev_priv->pm_rps_events = GEN6_PM_RPS_EVENTS;
 
 	dev_priv->rps.pm_intr_keep = 0;
 
