@@ -1,9 +1,3 @@
-linux (4.8.0-17.19+IntelAtom) yakkety; urgency=medium
-
-  * Patched with Intel Atom HDMI audio, wifi, bt
-
- -- Ian W. Morrison (Linuxium) <ianwmorrison@gmail.com>  Tue, 04 Oct 2016 11:01:15 +1100
-
 linux (4.8.0-17.19) yakkety; urgency=low
 
   * Release Tracking Bug
