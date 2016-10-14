@@ -1,9 +1,3 @@
-linux (4.8.0-22.24+IntelAtom) yakkety; urgency=medium
-
-  * Patched with Intel Atom HDMI audio, wifi, bt
-
- -- Ian W. Morrison (Linuxium) <ianwmorrison@gmail.com>  Wed, 12 Oct 2016 20:59:32 +1100
-
 linux (4.8.0-22.24) yakkety; urgency=low
 
   * CVE-2016-7039 (LP: #1631287)
